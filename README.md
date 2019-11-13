@@ -59,7 +59,7 @@ docker run \
  drone/registry-plugin
 ```
 
-Configure your agents to use the plugin:
+Configure your runner to use the plugin:
 
 ```
 DRONE_REGISTRY_ENDPOINT=http://plugin.address:3000
